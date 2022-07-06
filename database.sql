@@ -1,0 +1,7 @@
+CREATE DATABASE school_db;
+
+CREATE TABLE students(
+    id SERIAL PRIMARY KEY NOT NULL,
+    fullname VARCHAR(255) NOT NULL,
+    major VARCHAR(255) NOT NULL
+);
